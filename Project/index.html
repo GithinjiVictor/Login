@@ -10,6 +10,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
     <!-- fontawesome link -->
     <link
       rel="stylesheet"
@@ -24,7 +25,7 @@
       <center><h1 class="wrapperh1">Login</h1></center>
       <div class="Entire">
         <div class="User">
-          <label class="labels" for="">UserName</label>
+          <!-- <label class="labels" for="">UserName</label> -->
           <br />
           <input
             class="input-box"
@@ -33,15 +34,11 @@
             required
           />
           <!---->
-          <img
-            class="i"
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUFJREFUSEvNlmESwUAMRuMmnAQ34SQ4CU6Ck+Ak9M3smtrubrLEVGY6frTyki9fN53ISDEZiSufgqcisuquW7jOrQ20ggHuRWSRgChgGYow1dACBnaqZAW+7ooydd8CBpp2mtYBfGZp2QpmnkhsCSRXu7aCtyKysVBFZNc9x/PV+AX4EGbtAtaM1YdgMOAuYF6jq5Ys3MdcmMwFTBKLwUzGIpl1xrH6mslMpoqJWsH8D9mZ+TwkuYeZqvL2tf8ErI3PdP/vwVFefqPEaWdIfbFuK63j0jbS5OQ9xmzFudfALYdGrhCgx9LxWQJ/C42FFFdlCWxZgZrcffhgVebALZvICh+c3zkwe5fj0TPYzxynr8iBWQa42TMGXyY58MOT2Mv1tkBSsJebc7VXwUjsLXMs4u07TDu5fqR6+z52K2S0jp8qNTYfcSiZaQAAAABJRU5ErkJggg=="
-          />
-          <box-icon name="user-circle"></box-icon>
+          <div><i class="fa-solid fa-user"></i></div>
         </div>
 
         <div class="Pass">
-          <label class="labels">Password</label>
+          <!-- <label class="labels">Password</label> -->
           <box-icon name="lock-alt" type="solid"></box-icon>
           <br />
           <input class="input-box" type="" placeholder="Password" required />
@@ -54,13 +51,14 @@
         <div class="Remember">
           <label for=""> <input type="checkbox" />Remember Me? </label>
         </div>
-        <div class="ForgotPassword">
+        <!-- <div class="ForgotPassword">
           <a href="#">Forgot Password</a>
-        </div>
+        </div> -->
+        <a href="#">ForgotPassword</a>
         <div class="button">
           <button class="Sbutton">Submit</button>
         </div>
-        <div class="Account?">
+        <div class="Account">
           <label for="">Don't Have An Account?</label>
         </div>
       </div>
